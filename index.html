@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <h1>Welcome to My Interactive Page</h1>
+
+  <!-- Part 1: Event Handling -->
+  <button id="helloBtn">Click Me!</button>
+  <p id="helloMessage"></p>
+
+  <!-- Part 2: Interactive Elements -->
+  <h2>Light/Dark Mode</h2>
+  <button id="themeBtn">Toggle Theme</button>
+
+  <h2>Counter</h2>
+  <button id="addBtn">Add 1ne</button>
+  <button id="resetBtn">Reset</button>
+  <p>Count: <span id="counter">0</span></p>
+
+  <h2>FAQ</h2>
+  <p class="question">What is PLP</p>
+  <p class="answer">Simply, The Power Learn Project</p>
+
+  <!-- Part 3: Form Validation -->
+  <h2>Signup Form</h2>
+  <form id="signupForm">
+    <label>Name: <input type="text" id="name"></label><br>
+    <label>Email: <input type="text" id="email"></label><br>
+    <label>Password: <input type="password" id="password"></label><br>
+    <button type="submit">Submit</button>
+  </form>
+  <div id="formFeedback"></div>
+
+  <script src="script/script.js"></script>
+</body>
+</html>
